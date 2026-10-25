@@ -127,6 +127,7 @@
       year: 2025
       title: "News, With a Twist: Using Contrastive Learning to Improve User Embeddings for Diverse News Recommendations"
       venue: "INRA at ACM RecSys"
+      paper: "https://ceur-ws.org/Vol-4056/full2.pdf"
     - authors: "Manel Slokom, Laura Hollink"
       year: 2026
       title: "Personalized Post-processing: How Much Does Your Data Shape Recommendation Diversity?"
