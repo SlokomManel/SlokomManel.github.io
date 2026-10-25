@@ -47,19 +47,23 @@
       year: 2025
       title: "Toward Practical Anonymity: A White Paper on privacy risk, metrics, and governance in synthetic data"
       venue: "IEEE Xplore"
+      paper: "https://ieeexplore.ieee.org/document/11197237/"
     - authors: "Manel Slokom, Shruti Agrawal, Nynke C. Krol, Peter-Paul de Wolf"
       year: 2024
       title: "Relational or Single: A Comparative Analysis of Data Synthesis Approaches for Privacy and Utility"
       venue: "PSD, Springer"
+      paper: "https://dl.acm.org/doi/10.1007/978-3-031-69651-0_27"
     - authors: "Mohamed Aghaddar, Liu N. Su, Manel Slokom, et al."
       year: 2024
       title: "A Case Study Exploring Data Synthesis Strategies on Tabular vs. Aggregated Data Sources"
       venue: "PSD, Springer"
+      paper: "https://link.springer.com/chapter/10.1007/978-3-031-69651-0_28"
     - authors: "Manel Slokom, Jel Vankan, Peter-Paul de Wolf"
       year: 2024
       title: "From COACH to COACH+: Automating Output Checking with Human-in-the-Loop"
       venue: "Statistical Journal of the IAOS"
       award: "Winner of the IAOS Prize for Young Statisticians"
+      paper: "https://journals.sagepub.com/doi/abs/10.1177/18747655241301199"
     - authors: "Manel Slokom, Jel Vankan, Peter-Paul de Wolf, Martha Larson"
       year: 2023
       title: "COACH: COmputer-Assisted output CHecking with Human-in-the-Loop"
@@ -110,6 +114,7 @@
       year: 2026
       title: "FedFlex: Federated Learning for Diverse Netflix Recommendations"
       venue: "2nd International Conference on Federated Learning and Intelligent Computing Systems (FLICS)"
+      slides: "https://github.com/SlokomManel/federated-recommendations-participants/blob/main/FedFlex_slides_updated.pdf"
     - authors: "Bo Chen (MS), Manel Slokom"
       year: 2026
       title: "LLMDiRec: LLM-Enhanced Intent Diffusion for Sequential Recommendation"
@@ -164,3 +169,4 @@
       title: "Comparing Recommender Systems Using Synthetic Data"
       venue: "ACM RecSys"
       paper: "https://dl.acm.org/doi/abs/10.1145/3240323.3240325"
+      github: "https://github.com/SlokomManel/SynRec"
