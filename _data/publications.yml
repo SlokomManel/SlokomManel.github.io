@@ -40,6 +40,9 @@
       year: 2026
       title: "LLM-as-a-Discriminator: When Synthetic Tables Still Look Real"
       venue: "arXiv preprint arXiv:2606.09865"
+      paper: "https://arxiv.org/html/2606.09865v1"
+      slides: "https://github.com/SlokomManel/LLM-as-a-Discriminator/blob/main/presentation/Slokom_et_al_LLM_as_Discriminator_Presentation.pdf"
+      github: "https://github.com/SlokomManel/LLM-as-a-Discriminator"
     - authors: "Alexander Boudewijn, Maurice Coyle, Alexandra Ebert, Abdullah Elbi, Mark Elliot, Matteo Giomi, Faris Haddad, Shannon Kroes, Aldo Maurizio Lamberti, Simone Mangiante, Rudolf Mayer, Grady Nye, Manel Slokom"
       year: 2025
       title: "Toward Practical Anonymity: A White Paper on privacy risk, metrics, and governance in synthetic data"
@@ -96,6 +99,9 @@
       year: 2026
       title: "Beyond Centralization: User-Controlled Federated Recommendations in Practice"
       venue: "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization, pp. 462–465"
+      paper: "https://dl.acm.org/doi/full/10.1145/3774935.3812710"
+      slides: "https://github.com/SlokomManel/federated-recommendations-participants/blob/main/umap_fedrec.pdf"
+      github: "https://github.com/SlokomManel/federated-recommendations-participants"
     - authors: "Sven Lankester (MS), Manel Slokom, et al."
       year: 2026
       title: "FedFlex: Federated Learning for Diverse Netflix Recommendations"
@@ -117,6 +123,8 @@
       year: 2025
       title: "How to Diversify Any Personalized Recommender?"
       venue: "ECIR 2025"
+      paper: "https://link.springer.com/chapter/10.1007/978-3-031-88717-8_23"
+      github: "https://github.com/SlokomManel/How-to-Diversify-any-Personalized-Recommender-"
     - authors: "Manel Slokom, Alan Hanjalic, Martha Larson"
       year: 2021
       title: "Towards User-Oriented Privacy for Recommender System Data: A Personalization-based Approach to Gender Obfuscation for User Profiles"
