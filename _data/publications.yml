@@ -64,10 +64,12 @@
       year: 2023
       title: "COACH: COmputer-Assisted output CHecking with Human-in-the-Loop"
       venue: "UNECE Expert Meeting on Statistical Data Confidentiality"
+      paper: "https://www.unece.org/sites/default/files/2023-09/SDC2023_S5_3_Netherlands_Slokom_P.pdf"
     - authors: "Manel Slokom, Peter-Paul de Wolf, Martha Larson"
       year: 2023
       title: "Exploring Privacy-Preserving Techniques on Synthetic Data as a Defense Against Model Inversion Attacks"
       venue: "Information Security Conference, Springer"
+      paper: "https://link.springer.com/chapter/10.1007/978-3-031-49187-0_1"
     - authors: "United Nations"
       year: 2022
       title: "Synthetic Data for Official Statistics – A starter guide"
@@ -77,10 +79,12 @@
       year: 2022
       title: "Machine Learning Meets Data Modification: The Potential of Pre-processing for Privacy Enhancement"
       venue: "Security and Artificial Intelligence, Springer"
+      paper: "https://link.springer.com/chapter/10.1007/978-3-030-98795-4_7"
     - authors: "Manel Slokom, Peter-Paul de Wolf, Martha Larson"
       year: 2022
       title: "When Machine Learning Models Leak: An Exploration of Synthetic Training Data"
       venue: "PSD, Springer"
+      paper: "https://link.springer.com/chapter/10.1007/978-3-031-13945-1_20"
     - authors: "Martha Larson, Jaeyoung Choi, Manel Slokom, et al."
       year: 2019
       title: "Privacy and Audiovisual Content: Protecting Users as Big Multimedia Data Grows Bigger"
@@ -111,6 +115,7 @@
       title: "LLMDiRec: LLM-Enhanced Intent Diffusion for Sequential Recommendation"
       venue: "KES International Conference on Human-Centered Intelligent Systems (KES-HCIS), Springer"
       award: "Best Paper Award, July 2026"
+      paper: "https://arxiv.org/abs/2601.03259"
     - authors: "Zijie Tang (MS), Manel Slokom"
       year: 2025
       title: "News, With a Twist: Using Contrastive Learning to Improve User Embeddings for Diverse News Recommendations"
@@ -129,22 +134,27 @@
       year: 2021
       title: "Towards User-Oriented Privacy for Recommender System Data: A Personalization-based Approach to Gender Obfuscation for User Profiles"
       venue: "Information Processing & Management"
+      paper: "https://www.sciencedirect.com/science/article/pii/S0306457321002065"
     - authors: "Manel Slokom, Martha Larson"
       year: 2021
       title: "Doing Data Right: Lessons from Conventional Data to Improve Synthetic Data for Recommender Systems"
       venue: "SimuRec Workshop at RecSys"
+      paper: "https://arxiv.org/abs/2110.03275"
     - authors: "Manel Slokom, Martha Larson, Alan Hanjalic"
       year: 2020
       title: "Partially Synthetic Data for Recommender Systems"
       venue: "PSD"
+      paper: "https://arxiv.org/abs/2008.03797"
     - authors: "Manel Slokom, Martha Larson, Alan Hanjalic"
       year: 2019
       title: "Data Masking for Recommender Systems: Prediction Performance and Rating Hiding"
       venue: "Late-breaking Results, RecSys"
+      paper: "https://ceurspt.wikidata.dbis.rwth-aachen.de/Vol-2431/paper5.pdf"
     - authors: "Christopher Strucks, Manel Slokom, Martha Larson"
       year: 2019
       title: "BlurM(or)e: Revisiting Gender Obfuscation in the User-Item Matrix"
       venue: "RMSE Workshop at RecSys"
+      paper: "https://pure.tudelft.nl/ws/portalfiles/portal/68758824/short2.pdf"
     - authors: "Martha Larson, Manel Slokom"
       year: 2019
       title: "Up Close, but not Too Personal: Hypotargeting for Recommender Systems"
@@ -153,3 +163,4 @@
       year: 2018
       title: "Comparing Recommender Systems Using Synthetic Data"
       venue: "ACM RecSys"
+      paper: "https://dl.acm.org/doi/abs/10.1145/3240323.3240325"
