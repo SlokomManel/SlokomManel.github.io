@@ -121,6 +121,8 @@
       venue: "KES International Conference on Human-Centered Intelligent Systems (KES-HCIS), Springer"
       award: "Best Paper Award, July 2026"
       paper: "https://arxiv.org/abs/2601.03259"
+      github: "https://github.com/BCJACK0125/LLMDiRec"
+      slides: "https://github.com/BCJACK0125/LLMDiRec/blob/main/LLMDiRec_talk_HCIS.pdf"
     - authors: "Zijie Tang (MS), Manel Slokom"
       year: 2025
       title: "News, With a Twist: Using Contrastive Learning to Improve User Embeddings for Diverse News Recommendations"
