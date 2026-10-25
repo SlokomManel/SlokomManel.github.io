@@ -1,0 +1,9 @@
+{% assign paper_url = pub.paper | default: pub.link %}
+{% if paper_url or pub.github or pub.poster or pub.slides %}
+<span class="pub-actions">
+  {% if paper_url %}<a href="{{ paper_url | escape }}" target="_blank" rel="noopener">Paper</a>{% endif %}
+  {% if pub.github %}<a href="{{ pub.github | escape }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+  {% if pub.poster %}<a href="{{ pub.poster | escape }}" target="_blank" rel="noopener">Poster</a>{% endif %}
+  {% if pub.slides %}<a href="{{ pub.slides | escape }}" target="_blank" rel="noopener">Slides</a>{% endif %}
+</span>
+{% endif %}

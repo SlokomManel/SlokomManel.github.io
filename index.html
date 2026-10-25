@@ -82,7 +82,7 @@ permalink: /
         <span class="pub-title">{{ pub.title }}</span>
         {% if pub.award %}<span class="badge">{{ pub.award }}</span>{% endif %}<br>
         <span class="pub-meta">{{ pub.authors | replace: "Manel Slokom", "<strong>Manel Slokom</strong>" }} · <em>{{ pub.venue }}</em>, {{ pub.year }}</span>
-        {% if pub.link %} · <a href="{{ pub.link }}" target="_blank" rel="noopener">link</a>{% endif %}
+        {% include publication-links.html %}
       </li>
       {% endfor %}
     {% endfor %}

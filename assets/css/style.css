@@ -206,6 +206,9 @@ ol.pub-list li::before{
 }
 .pub-title{font-family:var(--font-serif);font-weight:600;font-size:1.04rem}
 .pub-meta{color:var(--muted);font-size:.9rem;margin-top:3px}
+.pub-actions{display:inline-flex;flex-wrap:wrap;gap:10px;margin-left:10px;font-size:.82rem;font-weight:600}
+.pub-actions a{text-decoration:underline;text-decoration-color:transparent;text-underline-offset:3px}
+.pub-actions a:hover{text-decoration-color:var(--accent)}
 .pub-abstract{margin-top:8px;color:var(--muted);font-size:.9rem}
 .pub-abstract summary{color:var(--accent);cursor:pointer;font-weight:600}
 .pub-abstract p{margin:8px 0 0}

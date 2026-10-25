@@ -1,3 +1,4 @@
+# Optional URLs per item: paper (or legacy link), github, poster, slides.
 - group: Data Governance and Responsible AI
   intro: >-
     This body of work explores privacy-preserving machine learning, synthetic
