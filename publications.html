@@ -1,0 +1,27 @@
+---
+layout: default
+permalink: /publications/
+title: Publications
+---
+
+<section class="section">
+  <h1>Publications</h1>
+
+  {% for group in site.data.publications %}
+  <div class="pub-group">
+    <h2>{{ group.group }}</h2>
+    <p class="group-intro">{{ group.intro }}</p>
+    <ol class="pub-list">
+      {% for pub in group.items %}
+      <li>
+        <span class="pub-title">{{ pub.title }}</span>
+        {% if pub.award %}<span class="badge">{{ pub.award }}</span>{% endif %}<br>
+        <span class="pub-meta">{{ pub.authors | replace: "Manel Slokom", "<strong>Manel Slokom</strong>" }} · <em>{{ pub.venue }}</em>, {{ pub.year }}</span>
+        {% if pub.link %} · <a href="{{ pub.link }}" target="_blank" rel="noopener">link</a>{% endif %}
+        {% if pub.abstract %}<details class="pub-abstract"><summary>Abstract</summary><p>{{ pub.abstract }}</p></details>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+  {% endfor %}
+</section>

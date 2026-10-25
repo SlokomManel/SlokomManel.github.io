@@ -1,0 +1,87 @@
+---
+layout: default
+permalink: /teaching/
+title: Teaching & Service
+---
+
+<section class="section">
+  <h1>Teaching &amp; Service</h1>
+  <h2>Experience</h2>
+  <ul class="entry-list">
+    {% for job in site.data.experience %}
+    <li class="entry">
+      <div class="entry-head">
+        <span class="entry-title">{{ job.role }}, {{ job.org }}</span>
+        <span class="entry-period">{{ job.period }}</span>
+      </div>
+      {% if job.bullets %}
+      <ul class="bullets">
+        {% for b in job.bullets %}<li>{{ b }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section">
+  <h2>Teaching &amp; Supervision</h2>
+  <ul class="entry-list">
+    {% for item in site.data.supervision %}
+    <li class="entry">
+      <div class="entry-head">
+        <span class="entry-title">{{ item.role }}, {{ item.org }}</span>
+        <span class="entry-period">{{ item.period }}</span>
+      </div>
+      {% if item.bullets %}
+      <ul class="bullets">
+        {% for b in item.bullets %}<li>{{ b }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section">
+  <h2>Academic Service</h2>
+  <ul class="entry-list">
+    {% for item in site.data.service %}
+    <li class="entry">
+      <div class="entry-head">
+        <span class="entry-title">{{ item.role }}, {{ item.org }}</span>
+        <span class="entry-period">{{ item.period }}</span>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section">
+  <h2>Education</h2>
+  <ul class="entry-list">
+    {% for ed in site.data.education %}
+    <li class="entry">
+      <div class="entry-head">
+        <span class="entry-title">{{ ed.degree }}, {{ ed.org }}</span>
+        <span class="entry-period">{{ ed.period }}</span>
+      </div>
+      {% if ed.note %}<p class="entry-note">{{ ed.note }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section">
+  <h2>Skills &amp; Languages</h2>
+  <div class="skills-grid">
+    {% for group in site.data.skills %}
+    <div class="skills-group">
+      <h3>{{ group.group }}</h3>
+      <ul class="skills-list">
+        {% for item in group.items %}<li>{{ item }}</li>{% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>

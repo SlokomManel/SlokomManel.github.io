@@ -1,0 +1,42 @@
+# Selected projects shown on /projects/.
+# - title: project name
+# - image: path under /assets/img/projects/ (optional, leave blank or remove
+#          the line if you don't have one yet; the card will just skip it)
+# - abstract: a short paragraph describing the project
+# - link: optional URL (paper, repo, or workshop site)
+
+- title: "SynIRgy: Simulation and Synthetic Data for Information Retrieval"
+  image: "/assets/img/projects/synirgy.jpg"
+  abstract: >-
+    SynIRgy is a workshop series I co-organize bringing together researchers
+    working on simulation and synthetic data for information retrieval. The
+    first edition ran at ECIR 2026 in Delft; a new edition is set to join
+    the ACM Web Conference 2027.
+  link: "https://synirgy-workshop.github.io/"
+
+- title: "COACH+: Human-in-the-Loop Output Checking"
+  image: "/assets/img/projects/coach.jpg"
+  abstract: >-
+    COACH+ automates statistical output checking for official statistics
+    while keeping a human reviewer in the loop, balancing disclosure
+    control with analyst efficiency. The work won the IAOS Prize for Young
+    Statisticians.
+  link: ""
+
+- title: "Federated and Diversity-Aware Recommender Systems"
+  image: "/assets/img/projects/recsys.jpg"
+  abstract: >-
+    Research on making recommender systems fairer and more diverse without
+    sacrificing personalization. Topics include federated learning for
+    Netflix-style recommendations, LLM-enhanced sequential recommendation,
+    and personalization-aware methods for improving diversity.
+  link: ""
+
+- title: "Privacy-Preserving Synthetic Data"
+  image: "/assets/img/projects/synthetic-data.jpg"
+  abstract: >-
+    PhD and postdoctoral research on generating and evaluating synthetic
+    data that protects individual privacy while remaining useful for
+    downstream analysis. This work includes defenses against model inversion
+    attacks and contributions to UNECE and IEEE synthetic-data guidelines.
+  link: ""

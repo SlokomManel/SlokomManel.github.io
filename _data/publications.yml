@@ -1,0 +1,146 @@
+- group: Data Governance and Responsible AI
+  intro: >-
+    This body of work explores privacy-preserving machine learning, synthetic
+    data generation, and statistical disclosure control, particularly in the
+    context of official statistics. It includes both technical advances
+    (e.g., defense against model inversion attacks, data synthesis
+    techniques) and applied tools (e.g., the award-winning COACH system)
+    that integrate human-in-the-loop privacy assurance workflows.
+  items:
+    - authors: "Mana Douma, Emma Beauxis-Aussalet, Manel Slokom"
+      year: 2026
+      title: "Methodological Choices for Clustering-based Analysis of Classification Errors"
+      venue: "BNAIC/BeNeLearn 2026, poster (accepted)"
+      abstract: >-
+        Machine learning models can exhibit error disparities across protected
+        groups that fairness assessments may not reveal, e.g., due to lack of
+        access to sensitive features or groundtruth labels, or failure to
+        consider feature interactions. We investigate clustering as an approach
+        to address such challenges. We experiment with a binary classifier
+        trained on the OULAD dataset using sensitive and regular features, and
+        with fairness assessment when limited information is available: no
+        groundtruth labels or sensitive features. To further assess the impact
+        of unavailable sensitive features, we also experiment with using
+        sensitive features alone, together with regular features, and with
+        increasing weights. We also systematically vary the clustering
+        algorithm, distance metric, and data balancing strategy. Clustering
+        quality is compared in terms of silhouette scores, error disparities
+        among clusters, and whether clusters identify distinct social groups
+        with specific sensitive features. We show that clustering results are
+        greatly dependent on the choice of clustering algorithms, distance
+        metrics, and data balancing strategy. Gower's distance outperformed
+        Euclidean distance for mixed-type data, and K-Medoids was in most cases
+        the more robust algorithm for fairness detection. These findings
+        highlight the need for setting clear priorities, and for extensive
+        feature engineering and parameter tuning, rather than using a
+        one-size-fits-all approach.
+      link: "https://openreview.net/pdf?id=djJWh0MCWz"
+    - authors: "Manel Slokom, Malek Slokom, & Thierno Kante"
+      year: 2026
+      title: "LLM-as-a-Discriminator: When Synthetic Tables Still Look Real"
+      venue: "arXiv preprint arXiv:2606.09865"
+    - authors: "Alexander Boudewijn, Maurice Coyle, Alexandra Ebert, Abdullah Elbi, Mark Elliot, Matteo Giomi, Faris Haddad, Shannon Kroes, Aldo Maurizio Lamberti, Simone Mangiante, Rudolf Mayer, Grady Nye, Manel Slokom"
+      year: 2025
+      title: "Toward Practical Anonymity: A White Paper on privacy risk, metrics, and governance in synthetic data"
+      venue: "IEEE Xplore"
+    - authors: "Manel Slokom, Shruti Agrawal, Nynke C. Krol, Peter-Paul de Wolf"
+      year: 2024
+      title: "Relational or Single: A Comparative Analysis of Data Synthesis Approaches for Privacy and Utility"
+      venue: "PSD, Springer"
+    - authors: "Mohamed Aghaddar, Liu N. Su, Manel Slokom, et al."
+      year: 2024
+      title: "A Case Study Exploring Data Synthesis Strategies on Tabular vs. Aggregated Data Sources"
+      venue: "PSD, Springer"
+    - authors: "Manel Slokom, Jel Vankan, Peter-Paul de Wolf"
+      year: 2024
+      title: "From COACH to COACH+: Automating Output Checking with Human-in-the-Loop"
+      venue: "Statistical Journal of the IAOS"
+      award: "Winner of the IAOS Prize for Young Statisticians"
+    - authors: "Manel Slokom, Jel Vankan, Peter-Paul de Wolf, Martha Larson"
+      year: 2023
+      title: "COACH: COmputer-Assisted output CHecking with Human-in-the-Loop"
+      venue: "UNECE Expert Meeting on Statistical Data Confidentiality"
+    - authors: "Manel Slokom, Peter-Paul de Wolf, Martha Larson"
+      year: 2023
+      title: "Exploring Privacy-Preserving Techniques on Synthetic Data as a Defense Against Model Inversion Attacks"
+      venue: "Information Security Conference, Springer"
+    - authors: "United Nations"
+      year: 2022
+      title: "Synthetic Data for Official Statistics – A starter guide"
+      venue: "United Nations Economic Commission for Europe (UNECE)"
+      link: "https://unece.org/sites/default/files/2022-11/ECECESSTAT20226.pdf"
+    - authors: "Giuseppe Garofalo, Manel Slokom, et al."
+      year: 2022
+      title: "Machine Learning Meets Data Modification: The Potential of Pre-processing for Privacy Enhancement"
+      venue: "Security and Artificial Intelligence, Springer"
+    - authors: "Manel Slokom, Peter-Paul de Wolf, Martha Larson"
+      year: 2022
+      title: "When Machine Learning Models Leak: An Exploration of Synthetic Training Data"
+      venue: "PSD, Springer"
+    - authors: "Martha Larson, Jaeyoung Choi, Manel Slokom, et al."
+      year: 2019
+      title: "Privacy and Audiovisual Content: Protecting Users as Big Multimedia Data Grows Bigger"
+      venue: "Big Data Analytics for Multimedia Search, Springer"
+
+- group: Responsible Recommender Systems & Personalization
+  intro: >-
+    This line of work focuses on enhancing recommendation diversity and
+    personalization using state-of-the-art methods such as federated
+    learning, large language models (LLMs), and contrastive learning. The
+    research spans application domains from entertainment platforms like
+    Netflix to news and sequential recommenders, with an emphasis on
+    fairness, user modeling, and post-processing strategies.
+  items:
+    - authors: "Manel Slokom & Alejandro Bellogin"
+      year: 2026
+      title: "Beyond Centralization: User-Controlled Federated Recommendations in Practice"
+      venue: "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization, pp. 462–465"
+    - authors: "Sven Lankester (MS), Manel Slokom, et al."
+      year: 2026
+      title: "FedFlex: Federated Learning for Diverse Netflix Recommendations"
+      venue: "2nd International Conference on Federated Learning and Intelligent Computing Systems (FLICS)"
+    - authors: "Bo Chen (MS), Manel Slokom"
+      year: 2026
+      title: "LLMDiRec: LLM-Enhanced Intent Diffusion for Sequential Recommendation"
+      venue: "KES International Conference on Human-Centered Intelligent Systems (KES-HCIS), Springer"
+      award: "Best Paper Award, July 2026"
+    - authors: "Zijie Tang (MS), Manel Slokom"
+      year: 2025
+      title: "News, With a Twist: Using Contrastive Learning to Improve User Embeddings for Diverse News Recommendations"
+      venue: "INRA at ACM RecSys"
+    - authors: "Manel Slokom, Laura Hollink"
+      year: 2026
+      title: "Personalized Post-processing: How Much Does Your Data Shape Recommendation Diversity?"
+      venue: "Under review"
+    - authors: "Manel Slokom, Savvina Danil, Laura Hollink"
+      year: 2025
+      title: "How to Diversify Any Personalized Recommender?"
+      venue: "ECIR 2025"
+    - authors: "Manel Slokom, Alan Hanjalic, Martha Larson"
+      year: 2021
+      title: "Towards User-Oriented Privacy for Recommender System Data: A Personalization-based Approach to Gender Obfuscation for User Profiles"
+      venue: "Information Processing & Management"
+    - authors: "Manel Slokom, Martha Larson"
+      year: 2021
+      title: "Doing Data Right: Lessons from Conventional Data to Improve Synthetic Data for Recommender Systems"
+      venue: "SimuRec Workshop at RecSys"
+    - authors: "Manel Slokom, Martha Larson, Alan Hanjalic"
+      year: 2020
+      title: "Partially Synthetic Data for Recommender Systems"
+      venue: "PSD"
+    - authors: "Manel Slokom, Martha Larson, Alan Hanjalic"
+      year: 2019
+      title: "Data Masking for Recommender Systems: Prediction Performance and Rating Hiding"
+      venue: "Late-breaking Results, RecSys"
+    - authors: "Christopher Strucks, Manel Slokom, Martha Larson"
+      year: 2019
+      title: "BlurM(or)e: Revisiting Gender Obfuscation in the User-Item Matrix"
+      venue: "RMSE Workshop at RecSys"
+    - authors: "Martha Larson, Manel Slokom"
+      year: 2019
+      title: "Up Close, but not Too Personal: Hypotargeting for Recommender Systems"
+      venue: "ImpactRS Workshop at RecSys"
+    - authors: "Manel Slokom"
+      year: 2018
+      title: "Comparing Recommender Systems Using Synthetic Data"
+      venue: "ACM RecSys"

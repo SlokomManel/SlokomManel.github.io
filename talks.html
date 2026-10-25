@@ -1,0 +1,17 @@
+---
+layout: default
+permalink: /talks/
+title: Invited Talks
+---
+
+<section class="section">
+  <h1>Invited Talks</h1>
+  <ul class="entry-list">
+    {% for talk in site.data.talks %}
+    <li class="entry">
+      <div class="entry-title">{{ talk.title }}</div>
+      <div class="entry-meta">{{ talk.venue }} · {{ talk.date }}</div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

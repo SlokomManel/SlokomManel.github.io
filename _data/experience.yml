@@ -1,0 +1,36 @@
+- period: "2026–Present"
+  role: "Lecturer"
+  org: "Hotelschool, The Hague University of Applied Sciences, Netherlands"
+  bullets:
+    - "Teaching Data Analytics and Research to year 1 students."
+    - "Involved in the Hospitality Research Lab course for year 3 students."
+    - "Involved in the maker space: the use of AR/VR, 3D printing."
+
+- period: "2025–2026"
+  role: "Postdoctoral Researcher"
+  org: "VU Amsterdam, Quantitative Data Analytics, Netherlands"
+  bullets:
+    - "Focus: intersectional fairness, and in/post-training of recommendations."
+
+- period: "2023–2026"
+  role: "Postdoctoral Researcher"
+  org: "CWI, Human-Centered Data Analytics, Amsterdam, Netherlands"
+  bullets:
+    - "Focus: diversity in news recommender systems, AI ethics, and federated learning."
+
+- period: "2021–2024"
+  role: "Methodologist"
+  org: "Centraal Bureau voor de Statistiek (CBS), The Hague, Netherlands"
+  bullets:
+    - "Advised on data governance policy and contributed to frameworks for responsible data access in a national statistical context."
+    - "Developed and validated privacy-preserving analytical methods for sensitive population data under strict confidentiality and legal constraints."
+    - "Evaluated synthetic data and model-release strategies as secure alternatives to direct data access."
+    - "Collaborated internationally (Statistics Canada, UNECE) on responsible data governance frameworks."
+    - "Co-authored the UNECE guidelines on synthetic data for official statistics, and the IEEE White Paper on privacy risk, metrics, and governance in synthetic data."
+
+- period: "2017"
+  role: "Research Intern"
+  org: "LIPN, University of Paris 13, France"
+  bullets:
+    - "Worked on social recommender systems and link prediction algorithms."
+    - "Gained hands-on experience in graph-based machine learning methods."

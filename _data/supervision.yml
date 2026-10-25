@@ -1,0 +1,20 @@
+- period: "2017–Present"
+  role: "Student Supervision"
+  org: "VU Amsterdam, TU Delft, Radboud, UvA, NTNU, Netherlands / International"
+  bullets:
+    - "Supervised 30+ BSc and MSc students on privacy-preserving ML, recommender systems, fairness, and synthetic data."
+    - "Several supervised projects led to peer-reviewed publications at ACM RecSys, ECIR, and PSD."
+
+- period: "2021–2022"
+  role: "Teaching Assistant"
+  org: "Radboud University, Netherlands"
+  bullets:
+    - "Taught research methods at MSc level: planning, problem-solving, and methodological design."
+    - "Coached students on applying AI and data science in real-world scenarios."
+
+- period: "2018–2019"
+  role: "Teaching Assistant"
+  org: "Amsterdam Institute for Advanced Metropolitan Solutions, Netherlands"
+  bullets:
+    - "Designed and delivered R programming tutorials for metropolitan data analysis."
+    - "Teaching materials publicly available on GitHub."

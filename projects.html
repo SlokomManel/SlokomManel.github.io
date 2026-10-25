@@ -1,0 +1,29 @@
+---
+layout: default
+permalink: /projects/
+title: Projects
+---
+
+<section class="section">
+  <h1>Projects</h1>
+  <p class="group-intro">A selection of research and applied projects. See <a href="{{ '/publications/' | relative_url }}">Publications</a> for the full list of papers.</p>
+
+  <div class="project-grid">
+    {% for p in site.data.projects %}
+    <div class="project-card">
+      {% if p.image %}
+      <div class="project-img">
+        <img src="{{ p.image | relative_url }}" alt="{{ p.title }}" loading="lazy">
+      </div>
+      {% endif %}
+      <div class="project-body">
+        <h3 class="project-title">{{ p.title }}</h3>
+        <p class="project-abstract">{{ p.abstract }}</p>
+        {% if p.link and p.link != "" %}
+        <a class="project-link" href="{{ p.link }}" target="_blank" rel="noopener">Learn more →</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

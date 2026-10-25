@@ -1,0 +1,20 @@
+---
+layout: default
+permalink: /news/
+title: News
+---
+
+<section class="section">
+  <h1>News</h1>
+  <ul class="news">
+    {% for item in site.data.news %}
+    <li>
+      <span class="date">{{ item.date }}</span>
+      <span class="content">
+        <strong>{{ item.title }}</strong>
+        <p>{{ item.body }}</p>
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

@@ -1,0 +1,37 @@
+- group: "Programming & Tools"
+  items:
+    - "Python (Pandas, Scikit-learn, PyTorch)"
+    - "R"
+    - "SQL"
+    - "LaTeX"
+    - "Git, Linux, HPC environments, cloud data pipelines"
+
+- group: "Machine Learning & AI"
+  items:
+    - "Privacy-preserving machine learning"
+    - "Synthetic data generation"
+    - "Federated learning"
+    - "Natural language processing"
+    - "Fairness-aware systems"
+    - "Large language models (LLMs)"
+
+- group: "Security, Privacy & Data Governance"
+  items:
+    - "UNECE / IEEE standards for synthetic data and privacy"
+    - "Differential privacy"
+    - "Model inversion defence"
+    - "Statistical disclosure control"
+
+- group: "Research & Collaboration"
+  items:
+    - "Empirical evaluation and human-subject studies"
+    - "Interdisciplinary applied research"
+    - "Project supervision"
+    - "Research-to-industry translation"
+
+- group: "Languages"
+  items:
+    - "Arabic (Advanced)"
+    - "English (Advanced)"
+    - "French (Advanced)"
+    - "Dutch (B1)"
