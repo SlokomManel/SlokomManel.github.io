@@ -29,6 +29,15 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+
+social:
+  name: Manel Slokom
+  links:
+    - https://scholar.google.com/citations?user=TgdCne8AAAAJ&hl=fr
+    - https://www.linkedin.com/in/manel-slokom-a9b36779/
+    - https://orcid.org/0000-0002-9048-1906
+    - https://github.com/SlokomManel/
 
 exclude:
   - README.md
