@@ -1,0 +1,42 @@
+---
+layout: default
+permalink: /contact/
+title: Contact
+---
+
+<section class="section">
+  <h1>Contact</h1>
+  <p class="contact-intro">For research collaborations, speaking, teaching, or other inquiries, send me a note.</p>
+
+  <form class="contact-form" id="contact-form" data-recipient="{{ site.author.email | escape }}">
+    <label for="contact-name">Your name</label>
+    <input id="contact-name" name="name" type="text" autocomplete="name" required>
+
+    <label for="contact-email">Your email</label>
+    <input id="contact-email" name="email" type="email" autocomplete="email" required>
+
+    <label for="contact-message">Subject and message</label>
+    <textarea id="contact-message" name="message" required></textarea>
+
+    <button type="submit">Open email draft</button>
+  </form>
+  <p class="contact-note">This opens your email app with the message prepared. The site does not send or store form submissions.</p>
+  <p id="contact-status" class="contact-note" role="status" aria-live="polite"></p>
+</section>
+
+<script>
+  document.getElementById('contact-form').addEventListener('submit', function (event) {
+    event.preventDefault();
+    var form = event.currentTarget;
+    var formData = new FormData(form);
+    var senderName = formData.get('name').trim();
+    var senderEmail = formData.get('email').trim();
+    var message = formData.get('message').trim();
+    var subject = 'Website inquiry from ' + senderName;
+    var body = 'Name: ' + senderName + '\nEmail: ' + senderEmail + '\n\n' + message;
+    var mailto = 'mailto:' + form.dataset.recipient + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+
+    document.getElementById('contact-status').textContent = 'Opening your email app...';
+    window.location.href = mailto;
+  });
+</script>
