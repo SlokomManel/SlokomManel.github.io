@@ -5,6 +5,19 @@
 # - abstract: a short paragraph describing the project
 # - link: optional URL (paper, repo, or workshop site)
 
+- title: "HAI-FIVE: Human-centred AI for Intelligent, Valuable Experiences"
+  image: "/assets/img/projects/hai-five.jpg"
+  abstract: >-
+    HAI-FIVE explores human-centred AI for more intelligent and valuable
+    hospitality experiences across HORECA. It brings
+    together responsible personalisation and recommender systems for guest
+    experiences and journeys; human-AI collaboration with LLMs and agents
+    that support guests and hospitality teams while keeping people in
+    control; and immersive prototyping with AR/VR and adaptive learning.
+    Systems are evaluated beyond accuracy and efficiency, considering
+    diversity, privacy, trust, agency, reliability and quality of experience.
+  link: ""
+
 - title: "SynIRgy: Simulation and Synthetic Data for Information Retrieval"
   image: "/assets/img/projects/synirgy.jpg"
   abstract: >-
