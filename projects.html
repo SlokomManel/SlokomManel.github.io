@@ -20,7 +20,7 @@ title: Projects
         <h3 class="project-title">{{ p.title }}</h3>
         <p class="project-abstract">{{ p.abstract }}</p>
         {% if p.link and p.link != "" %}
-        <a class="project-link" href="{{ p.link }}" target="_blank" rel="noopener">Learn more →</a>
+        <a class="project-link" href="{{ p.link }}" target="_blank" rel="noopener">{{ p.link_text | default: "Learn more" }} →</a>
         {% endif %}
       </div>
     </div>
