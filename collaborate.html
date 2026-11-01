@@ -1,0 +1,62 @@
+---
+layout: default
+permalink: /collaborate/
+title: Collaborate
+---
+
+<section class="section">
+  <h1>Collaborate with me</h1>
+  <p class="contact-intro">Interested in a consultation, research collaboration, or brainstorming on privacy-preserving AI or recommender systems? Tell me a little about what you have in mind.</p>
+
+  <form class="contact-form" id="collaboration-form" data-recipient="{{ site.author.email | escape }}">
+    <label for="collaboration-name">Your name</label>
+    <input id="collaboration-name" name="name" type="text" autocomplete="name" required>
+
+    <label for="collaboration-email">Your email</label>
+    <input id="collaboration-email" name="email" type="email" autocomplete="email" required>
+
+    <label for="collaboration-type">Connect with me about</label>
+    <select id="collaboration-type" name="connection" required>
+      <option value="" selected disabled>Select an option</option>
+      <option>Consultation</option>
+      <option>Collaboration</option>
+      <option>Brainstorming</option>
+      <option>Other</option>
+    </select>
+
+    <label for="collaboration-topic">Research area</label>
+    <select id="collaboration-topic" name="topic" required>
+      <option value="" selected disabled>Select a research area</option>
+      <option>Privacy-preserving AI</option>
+      <option>Recommender systems</option>
+      <option>Both privacy-preserving AI and recommender systems</option>
+      <option>Other</option>
+    </select>
+
+    <label for="collaboration-message">Your message</label>
+    <textarea id="collaboration-message" name="message" required></textarea>
+
+    <button type="submit">Continue to email</button>
+  </form>
+  <p class="contact-note">This opens a prefilled email draft addressed to {{ site.author.email }}. Review it and press Send in your email app. This website does not send or store your submission.</p>
+  <p id="collaboration-status" class="contact-note" role="status" aria-live="polite"></p>
+</section>
+
+<script>
+  document.getElementById('collaboration-form').addEventListener('submit', function (event) {
+    event.preventDefault();
+    var form = event.currentTarget;
+    var formData = new FormData(form);
+    var senderName = formData.get('name').trim();
+    var senderEmail = formData.get('email').trim();
+    var connection = formData.get('connection');
+    var topic = formData.get('topic');
+    var message = formData.get('message').trim();
+    var subject = connection + ' inquiry: ' + topic;
+    var body = 'Name: ' + senderName + '\nEmail: ' + senderEmail + '\nConnect with me about: ' + connection + '\nResearch area: ' + topic + '\n\n' + message;
+    var mailto = 'mailto:' + form.dataset.recipient + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+
+    document.getElementById('collaboration-status').textContent = 'Opening your email app...';
+    window.location.href = mailto;
+  });
+</script>

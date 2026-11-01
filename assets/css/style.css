@@ -167,7 +167,7 @@ nav.site-nav a.active{color:#fff;background:var(--accent)}
 .contact-intro{max-width:620px;color:var(--muted)}
 .contact-form{max-width:620px;margin-top:28px}
 .contact-form label{display:block;margin:18px 0 6px;font-size:.92rem;font-weight:600}
-.contact-form input,.contact-form textarea{
+.contact-form input,.contact-form select,.contact-form textarea{
   width:100%;
   padding:12px 14px;
   border:1px solid var(--line);
@@ -176,8 +176,9 @@ nav.site-nav a.active{color:#fff;background:var(--accent)}
   color:var(--text);
   font:inherit;
 }
+.contact-form select{font:inherit}
 .contact-form textarea{min-height:160px;resize:vertical}
-.contact-form input:focus,.contact-form textarea:focus{outline:2px solid var(--ring);outline-offset:2px}
+.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{outline:2px solid var(--ring);outline-offset:2px}
 .contact-form button{
   margin-top:20px;
   padding:10px 18px;
